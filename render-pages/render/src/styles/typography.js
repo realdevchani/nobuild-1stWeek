@@ -11,6 +11,44 @@ export const text60Bold = css`
   letter-spacing: -1.5px;
 `;
 
+export const textTitleBold = css`
+  font-family: 'pretendard', sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 84px;
+  letter-spacing: -1.5px;
+`;
+
+export const textSubTitleLight = css`
+  font-family: 'pretendard';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.8px;
+  letter-spacing: -0.55px;
+`
+
+export const placeHolder = css`
+  color: var(--www-mirrorfolio-com-nero-50, rgba(255, 255, 255, 0.50));
+  font-family: 'pretendard';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: -0.45px;
+`
+
+export const textInput = css`
+  color: rgba(255, 255, 255, 0.90);
+  font-family: 'pretendard';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: -0.45px;
+`
+
 // 36px SemiBold - 섹션 타이틀
 export const text36SemiBold = css`
   font-family: 'pretendard', sans-serif;
@@ -27,6 +65,15 @@ export const text24SemiBold = css`
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: -0.6px;
+`;
+
+// 20px Medium - Form Label
+export const text20Medium = css`
+  font-family: 'pretendard', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
 `;
 
 // 18px Regular - 인사말, 네비게이션

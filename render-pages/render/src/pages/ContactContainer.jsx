@@ -1,14 +1,15 @@
 import React from 'react';
 import Title from './contact/Title';
 import Form from './contact/Form';
+import * as S from './Contact.style'
+
 
 const ContactContainer = () => {
   return (
-    <div>
-      연락 페이지
+    <S.Container>
       <Title />
       <Form />
-    </div>
+    </S.Container>
   );
 };
 
